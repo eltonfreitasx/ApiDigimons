@@ -9,6 +9,7 @@
 <img src="./src/assets/readme/paginationdig.jpg"/>
 <br/> <br/>
 <hr/>
+
 ### 🛠️ Technologies 
 React with type script<br/>
 Api-digimon <br/>
