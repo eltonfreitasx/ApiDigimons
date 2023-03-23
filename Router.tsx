@@ -1,6 +1,7 @@
 import {Home} from './src/pages/Home'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import { Pagination } from './src/pages/pagination'
+import { Slide } from './src/components/Slide'
 
 export function Routers() {
     return (
@@ -8,6 +9,7 @@ export function Routers() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/pagination" element={<Pagination />} />
+                <Route path="/slide" element={<Slide />} />
             </Routes>
         </Router>
     )
