@@ -1,11 +1,14 @@
 import { Routers } from './../Router'
+import { DigimonProvider } from './context/DigimonContext'
 
 function App() {
 
 
   return (
     <>
-        <Routers />
+        <DigimonProvider>
+          <Routers />
+        </DigimonProvider>
     </>
   )
 }
