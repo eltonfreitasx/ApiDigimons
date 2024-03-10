@@ -4,6 +4,7 @@ interface DigimonProps {
     name: string
     img: string
     level: string
+    //tartsWith?: string
 }
 
 interface DigimonContextType {

@@ -1,4 +1,4 @@
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import { Div, Imagem } from '../styles/styles';
 import { DigimonContext } from '../context/DigimonContext';
 
@@ -6,7 +6,8 @@ export function Home() {
     const { digimons } = useContext(DigimonContext)
 
     return (
-        <Div>
+       <>
+         <Div>
             {
                 digimons.map(digimon => {
                     return (
@@ -19,5 +20,6 @@ export function Home() {
                 })
             }
         </Div>
+       </>
     )
 }
